@@ -10,8 +10,11 @@ if player == 1:
     print('Player chooses: ✊')
 elif player == 2:
     print('Player chooses: ✋')
-else:
+elif player == 3:
     print('Player chooses: ✌️')
+else:
+    print('Invalid choice')
+
 
 if computer == 1:
     print('Computer chooses: ✊')
